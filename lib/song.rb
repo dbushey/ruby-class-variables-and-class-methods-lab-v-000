@@ -22,7 +22,7 @@ class Song
   end
 
   def self.artists
-    #return array with all songs, no duplicates
+    #return array with all artists, no duplicates
   end
 
 end
