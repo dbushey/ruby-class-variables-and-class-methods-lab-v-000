@@ -23,12 +23,12 @@ class Song
 
   def self.artists
     #returns array with all artists, no duplicates
-    @@artists = @@artists.uniq
+    @@artists.uniq
   end
 
   def self.genres
     #returns array with all songs, no duplicates
-    @@genres = @@genres.uniq
+    @@genres.uniq
   end
 
 
