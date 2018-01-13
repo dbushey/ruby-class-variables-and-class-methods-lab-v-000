@@ -26,6 +26,7 @@ class Song
   def self.artists
     #returns array with all artists, no duplicates
     @@artists.uniq
+    binding.pry
   end
 
   def self.genres
@@ -33,7 +34,7 @@ class Song
     @@genres.uniq
   end
 
-binding.pry
+
 
   def self.genre_count
     #returns hash with all genres as key and genre songs number as the key value
