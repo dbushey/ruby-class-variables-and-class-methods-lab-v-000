@@ -16,6 +16,7 @@ class Song
     @@artists << @artist
     @@genres << @genre
     @@count += 1
+    binding.pry
   end
 
   def self.count
@@ -26,7 +27,7 @@ class Song
   def self.artists
     #returns array with all artists, no duplicates
     @@artists.uniq
-    binding.pry
+    
   end
 
   def self.genres
