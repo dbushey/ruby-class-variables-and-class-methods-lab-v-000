@@ -20,6 +20,7 @@ class Song
 
   def self.genres
     #return array with all songs, no duplicates
+    @@genres.uniq
   end
 
   def self.artists
