@@ -20,13 +20,21 @@ class Song
   end
 
   def self.genres
-    #return array with all songs, no duplicates
+    #returns array with all songs, no duplicates
     @@genres.uniq
   end
 
   def self.artists
-    #return array with all artists, no duplicates
+    #returns array with all artists, no duplicates
     @@artists.uniq
+  end
+
+  def self.genre_count
+    #returns hash with all genres as key and genre songs number as the key value
+  end
+
+  def self.artists
+    #returns hash with all artists as key and artist songs number as the key value
   end
 
 end
