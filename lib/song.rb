@@ -8,7 +8,7 @@ class Song
   end
 
   def self.count
-    @@asong_count
+    @@song_count
   end
 
 end
