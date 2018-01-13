@@ -23,18 +23,24 @@ class Song
 
   def self.artists
     #returns array with all artists, no duplicates
-    @@artists.uniq
+    @@artists = @@artists.uniq
   end
 
   def self.genres
     #returns array with all songs, no duplicates
-    @@genres.uniq
+    @@genres = @@genres.uniq
   end
 
 
 
   def self.genre_count
     #returns hash with all genres as key and genre songs number as the key value
+    counts = Hash.new 0
+
+    words.each do |word|
+      counts[word] += 1
+    end
+    @@genre_count
   end
 
   def self.artists
