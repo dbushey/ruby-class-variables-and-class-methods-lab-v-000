@@ -15,6 +15,7 @@ class Song
   end
 
   def self.count
+    #returns the total number of songs created
     @@song_count
   end
 
