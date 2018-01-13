@@ -60,6 +60,7 @@ describe "Song" do
 
   describe ".artists" do
     it "is a class method that returns a unique array of artists of existing songs" do 
+      binding.pry
       expect(Song.artists).to match(["Jay-Z", "Brittany Spears"])
     end 
   end
