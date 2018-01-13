@@ -35,10 +35,8 @@ class Song
 
   def self.genre_count
     #returns hash with all genres as key and genre songs number as the key value
-    counts = Hash.new 0
-
-    words.each do |word|
-      counts[word] += 1
+    @@genres.each do |genre|
+      @@genre_count[genre] += 1
     end
     @@genre_count
   end
