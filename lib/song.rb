@@ -33,7 +33,7 @@ class Song
     @@genres.uniq
   end
 
-
+binding.pry
 
   def self.genre_count
     #returns hash with all genres as key and genre songs number as the key value
