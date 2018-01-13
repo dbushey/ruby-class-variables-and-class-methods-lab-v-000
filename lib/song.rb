@@ -24,9 +24,10 @@ class Song
   end
 
   def self.artists
+    binding.pry
     #returns array with all artists, no duplicates
     @@artists.uniq
-    binding.pry
+
   end
 
   def self.genres
