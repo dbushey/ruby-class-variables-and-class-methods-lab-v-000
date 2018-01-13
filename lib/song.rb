@@ -21,4 +21,8 @@ class Song
     #return array with all songs, no duplicates
   end
 
+  def self.artists
+    #return array with all songs, no duplicates
+  end
+
 end
